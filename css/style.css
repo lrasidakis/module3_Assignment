@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;  
+    font-family: cursive;
+}
+
+
+h1 {
+  font-size:300%;
+  text-align:center;
+  padding:20px 0px 40px 0px;
+  margin:0;
+
+}
+#header-nav{
+    background-color: lightblue;
+}
+
+#Brand{
+    color: white;
+    font-size: 1.5em;
+    text-shadow: 3px 3px 4px black;
+    
+    
+    
+}
+.navbar-header{
+    padding: 0px 20px 0px 20px;
+}
+
+body{
+    margin:8px;
+}
+
+#Beef {
+background-color:yellow;
+}
+
+#Chicken {
+background-color:green;
+}
+
+#Fish {
+
+background-color:orange;
+}
+
+
+.floating-box{
+    position: relative;
+    background-color: lightcyan;
+    padding: 40px 5px 5px 5px;
+    border: 1px solid black;
+}
+
+.absolute{
+    position:absolute;
+    top:0px;
+    right:0px;
+    padding: 5px 10px 5px 10px;
+    border:1px solid black  ;
+    font-weight: bold; 
+    font-size: 1.1em;
+}
+
+@media (min-width: 992px) {
+.tile1{
+    width: 33.33%;
+    float:left;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.tile2{
+    width: 33.33%;
+    float:left;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.tile3{
+    width: 33.33%;
+    float:left;
+    padding-right:15px;
+    padding-left: 15px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+.tile1{
+    width: 50%;
+    float:left;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.tile2{
+    width: 50%;
+    float:left;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.tile3{
+    clear: both;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 30px;
+}
+}
+
+@media (max-width: 767px) {
+.tile1{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 30px;
+    margin:auto;
+    margin-top: 10px;
+}
+
+.tile2{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 30px;
+}
+
+.tile3{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+}
+
